@@ -1,0 +1,31 @@
+{
+  "name": "imagecompression",
+  "version": "1.0.0",
+  "description": "This is a picture compression tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "image compression "
+  },
+  "bin": {
+    "image": "compress.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sowdf/ImageCompression.git"
+  },
+  "keywords": [
+    "image",
+    "compression"
+  ],
+  "author": "sowdf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sowdf/ImageCompression/issues"
+  },
+  "homepage": "https://github.com/sowdf/ImageCompression#readme",
+  "dependencies": {
+    "imagemin": "^5.3.1",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^5.0.1"
+  }
+}
