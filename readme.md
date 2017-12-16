@@ -1,5 +1,8 @@
 ###图片压缩
 
+```javascript
+npm install imagecompression -g
+```
 只能压缩png 和jpg
 
 ```javascript
