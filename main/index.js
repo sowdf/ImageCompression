@@ -9,13 +9,13 @@ class Compress{
         this.dirPath = options.dirPath;
         this.fileCount = 0;
         this.output = options.output || options.dirPath + '/output';
-        this.extAry = ['png','jpg'];
+        this.extAry = ['png','jpg','gif'];
     }
     doneCallback(){  // 压缩完成 回调
 
     }
     init(){
-        imagemin([`${this.dirPath}/*.{jpg,png}`], `${this.output}`, {
+        imagemin([`${this.dirPath}/*.{jpg,png,gif}`], `${this.output}`, {
             plugins: [
                 imageminJpegtran(),
                 imageminPngquant({quality: '66'})
